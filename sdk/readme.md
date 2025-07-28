@@ -1,4 +1,4 @@
-# MovieLens SDK - `alimiji_filmns_sdk`
+# MovieLens SDK - `alimiji_film_sdk`
 
 Un SDK Python simple pour interagir avec l’API REST MovieLens. Il est conçu pour les **Data Analysts** et **Data Scientists**, avec une prise en charge native de **Pydantic**, **dictionnaires** et **DataFrames Pandas**.
 
@@ -10,7 +10,7 @@ Un SDK Python simple pour interagir avec l’API REST MovieLens. Il est conçu p
 ## Installation
 
 ```bash
-pip install alimiji_filmns_sdk
+pip install alimiji_film_sdk
 ```
 
 ---
@@ -18,7 +18,7 @@ pip install alimiji_filmns_sdk
 ## Configuration
 
 ```python
-from alimiji_filmns_sdk import MovieClient, MovieConfig
+from alimiji_film_sdk import MovieClient, MovieConfig
 
 # Configuration avec l’URL de votre API (Render ou locale)
 config = MovieConfig(movie_base_url="https://datascience-movie-backend.onrender.com")
@@ -98,4 +98,4 @@ MIT License
 ## Liens utiles
 
 - API Render : [https://datascience-movie-backend.onrender.com](https://datascience-movie-backend.onrender.com)
-- PyPI : [https://pypi.org/project/alimiji-filmns-sdk](https://pypi.org/project/alimiji-filmns-sdk)
+- PyPI : [https://pypi.org/project/alimiji-film-sdk](https://pypi.org/project/alimiji-filmns-sdk)
